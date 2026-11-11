@@ -1,0 +1,53 @@
+*.iml
+.gradle/
+/local.properties
+local.properties
+.idea/
+.kotlin/
+.DS_Store
+/build/
+app/build/
+build/
+/captures
+.externalNativeBuild
+.cxx
+
+# Node / Backend
+node_modules/
+backend/node_modules/
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+backend/.env
+backend/.env.*
+!backend/.env.example
+
+# Debug / Temporary dumps and screenshots
+*.png
+*_dump*.xml
+dialog_dump.xml
+step2_dump.xml
+ui.xml
+window_dump*.xml
+build_errors.txt
+# Scratch and test files
+users.json
+backend/users.json
+backend/check_*.js
+backend/test_*.js
+backend/scratch_*.js
+backend/find_*.js
+backend/inspect_*.js
+backend/probe_*.js
+backend/dump_*.js
+backend/diff_*.js
+backend/extract_*.js
+
+*.log
+.git_backup
+
+

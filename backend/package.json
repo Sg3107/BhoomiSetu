@@ -1,0 +1,25 @@
+{
+  "name": "bhoomisetu-backend-skeleton",
+  "version": "1.0.0",
+  "description": "BhoomiSetu Auth + Survey Marketplace Backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^2.11.0",
+    "cors": "^2.8.5",
+    "dotenv": "^18.0.4",
+    "express": "^4.19.2",
+    "google-auth-library": "^11.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.0",
+    "multer": "^2.4.0",
+    "nodemailer": "^10.0.15",
+    "resend": "^6.32.1",
+    "socket.io": "^4.8.1",
+    "uuid": "^9.0.1"
+  }
+}
